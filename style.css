@@ -10,7 +10,7 @@ padding-bottom: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 0px;
+    padding-top: 18px;
     }
 .left-links,.firstheader {
     list-style: none;
@@ -62,3 +62,30 @@ font-weight: bold;
     padding: 0px 100px 0px 100px;
     margin-left: 390px;
 }
+.middle{
+    display: flex;
+    flex-direction: column;
+}
+.boxes{
+    display:flex;
+    flex-direction: row;
+    margin:5px;
+    justify-content: center;
+}
+.box{
+    height: 180px;
+    width: 180px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 30px;
+    margin: 30px;
+}
+.random{
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 20px;
+    color:#1F2937;
+}
+
+
