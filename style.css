@@ -29,7 +29,7 @@ padding-bottom: 50px;
  flex-direction: row;
  justify-content:flex-start ;
  padding-top: 50px;
- padding-bottom: 50px;
+ padding-bottom: 80px;
  padding-left: 280px;
 }
 .hero1{
@@ -45,15 +45,18 @@ h1{
 }
 p{
     margin:0;
+    font-size: 20px;
 }
 .sign-up{
 background-color:#3882F6;
 color:#F9FAF8;
 border-radius: 10px;
-max-width: 100px;
+width: 100px;
 margin-top: 10px;
 padding: 5px;
 font-weight: bold;
+border-color: white;
+max-height: 40px;
 }
 .background{
     display: flex;
@@ -66,11 +69,21 @@ font-weight: bold;
     display: flex;
     flex-direction: column;
 }
+.random{
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 20px;
+    color:#1F2937;
+    padding-top: 30px;
+}
+
 .boxes{
     display:flex;
     flex-direction: row;
-    margin:5px;
+    margin:15px;
     justify-content: center;
+    padding-bottom: 70px;
 }
 .box{
     height: 180px;
@@ -79,13 +92,47 @@ font-weight: bold;
     border-color: #3882F6;
     border-radius: 30px;
     margin: 30px;
+    margin-bottom: 10px;
 }
-.random{
+.subtext{
+    color:grey;
+    padding-left: 50px;
+    width: 150px;
     text-align: center;
-    font-weight: bold;
+}
+.text{
     font-size: 36px;
-    margin: 20px;
+    font-weight: 300;
     color:#1F2937;
+    max-width: 800px;
+    align-self: center;
+
 }
 
-
+.quote{
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+.author{
+    align-self: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 30px;
+    padding-left: 440px;
+}
+.Advert{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 280px;
+    margin-top: 180px;
+    padding: 150px;
+    background-color:#3882F6;
+    color:#E5E7EB;
+    border-radius: 30px;
+}
+.Advert1{
+    padding-right: 130px;
+}
